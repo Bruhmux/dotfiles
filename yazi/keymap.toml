@@ -1,0 +1,4 @@
+  [mgr]
+  prepend_keymap = [
+    { on = [ "<A-y>" ], run = "plugin copy-file-contents", desc = "Copy file contents" },
+    ]

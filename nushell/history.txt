@@ -1,0 +1,1121 @@
+cl
+clear
+exit
+tmux
+exit
+/usr/local/bin/nu
+sudo ls usr/local/bin
+sudo ls /usr/local/bin
+sudo ls /usr/bin
+$nu.config-path
+nvim $nu.config-path
+exit
+config nu
+exit
+$shell
+cl
+alias clear cl
+alias
+alias --help
+alias cl to clear
+alias cl = clear
+cl
+alias
+cl
+alias --help
+alias ff = fastfetch
+ff
+cl
+ff
+alias ff = fastfetch && clear
+alias ff = fastfetch and clear
+ff
+alias ff = fastfetch ; clear
+ff
+alias ff = fastfetch; clear
+ff
+alias --help
+help aliases
+ll
+config nu
+ff
+config nu
+ff
+config nu
+exit
+ff
+alias ff = clear; fastfetch
+ff
+alias ff = clear fastfetch;
+alias ff = fastfetch; clear
+ff
+alias ff = clear; fastfetch
+ff
+cl
+ff
+config nvim
+config nu 
+config nu --doc | nu-highlight | less -R<\n>
+config nu 
+l
+ls
+cl
+l
+cl
+ls
+ps
+cl
+$env
+cl
+ls
+cd .config/
+ls
+cl
+$env
+chsh -s /bin/bash
+cl
+ls | sort-by type
+ls | sort-by type -r
+ls | sort-by type 
+ps | where cpu > 5
+cl
+ehco "test" | describe
+"test" | describe
+$nu
+$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional<\n>mkdir $"($nu.cache-dir)"<\n>carapace _carapace nushell | save --force $"($nu.cache-dir)/carapace.nu"
+source $"($nu.cache-dir)/carapace.nu"
+$shell
+$0
+$SHELL
+cl
+ps -p $$
+ps -p$$
+ps -p 
+ps
+echo $SHELL
+env.shell
+$env.shell
+cl
+git show-branch 
+cd ~/Code/Data-Science/
+cd ..
+cd Ex_Folio/
+cl
+python
+cl
+clea
+clear
+$env.shell
+curl "www.themealdb.com/api/json/v1/1/filter.php?a=Indian"
+cd
+cl
+nvim .config/tmux/
+exit
+tmux
+cl
+ls
+tmux list-keys
+tmux list-keys | rg "selection"
+tmux list-keys | rg "copy-mode"
+tmux list-keys | rg "copy-mode-vi"
+cd
+cd .config/
+nvim .
+cd tmux/
+nvim .
+cl
+nvim .
+clear
+exit
+nu
+exit
+tmux show-options | rg 'status-keys'
+tmux show-keys | rg paste
+tmux list-keys | rg paste
+tmux list-keys | rg copy
+cl
+tmux list-keys | rg copy-mode
+cl
+tmux list-keys | rg copy-mode vi
+tmux list-keys | rg 'copy-mode vi'
+tmux list-keys | rg 'copy-mode-vi'
+help commands | explore
+help -f scroll
+help -f down
+ls
+tmux list-keys | rg 'copy-mode-vi'
+nvim .config/tmux/
+exit
+exit
+tmux
+cl
+ls
+cd tmux
+zoxide
+zoxide add .config/tmux
+ls tmux
+cd tmux
+zoxide tmux
+cd .config/tmux/
+nvim .
+lazygit
+exit
+tmux
+tmux attach 0
+tmux list-sessions
+$env.SHELL
+clear
+tmux rename-session
+tmux rename-session conf
+tmux list-keys | rg window
+nvim .
+cl
+tmux kill-session -a
+tmux list-sssions
+tmux list-sessions
+cl
+ls
+cat tmux.conf
+nvim 
+cl
+reboot
+config nu
+$env.EDITOR
+$env.EDITOR = nvim
+$env.EDITOR = 'nvim'
+config nu
+wttr
+exit
+config ny
+config nu
+$env.EDITOR = 'nvim'
+config nu
+exit
+$shell
+$env.shell
+$env
+$env.shell
+exit
+cd .config/hypr/
+nvim
+cd zellij
+cd .config/zellij
+nvim
+exit
+clear
+$env
+ls
+ps
+ps | where cpu > 5
+ls -qq
+config env 
+cl
+ln -s `/home/bruhma/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/Application Data/Balatro` /home/bruhma/.local/share/love
+rm -rf /home/bruhma/.local/share/love/Balatro
+ln -s `/home/bruhma/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/Application Data/Balatro` /home/bruhma/.local/share/love
+cl
+$PATH
+$env.path
+y
+nvim
+cl
+rustup update
+cd Code/
+mkdir LearnRust
+cd LearnRust/
+carapace
+carapace --selfupdate stable
+carapace --selfupdate -a
+config nu
+config env
+clear
+cargo new get-dependencies
+cd get-dependencies/
+cargo add rand@0.8.5 trpl@0.2.0
+cd ..
+cd Code/LearnRust/
+zoxide add ~/Code/LearnRust/
+nvim .
+mkdir hello_world
+cd hello_world/
+nvim .
+rustc main.rs
+./main.rs
+./main
+nvim .
+rustc main.rs
+./main
+cl
+./main
+nvim
+cargo version
+cd -
+cargo new hello_cargo
+cd hello_cargo/
+ls
+ls --halp
+ls --help
+eza -T
+cl
+eza -T
+eza -T; cl
+cl; eza -T
+eza
+eza --halp
+eza --help
+cl
+cl; eza -T
+cl
+clear
+cargo run
+cargo check
+cd ..
+cargo new guessing_game
+cd guessing_game/
+ls -a
+cargo run
+clear
+cargo build
+nvim
+cl
+cargo doc --open rand
+cargo doc --open
+fzf
+cargo check
+cargo run
+cl
+cargo check 
+cargo run
+cl
+ls
+$env.path
+zellij
+clear
+exi
+exit
+config nu 
+exit
+clear
+ls
+mv tmux-attach.sh scripts/
+ls scripds
+ls scripts
+ls
+cl
+exit
+nu
+exit
+nu
+exit
+ls
+cl
+exit
+nu
+exit
+nu
+exit
+cl
+ny
+clear
+ls
+ps | where cpu > 5
+ls
+cl
+pipewire 
+ls
+cl
+ls
+cl
+rustup doc --book
+ls
+cd Code/
+ls
+cd LearnRust/
+ls
+git remote add origin git@github.com:fordaman/LearnRust.git
+nvim
+git init
+gac "init commit"
+config nu
+exit
+nu
+cl
+gac "init commit"
+cd Code/LearnRust/
+gac "init commit"
+config nu
+exit
+cd Code/LearnRust/
+gac "init commit"
+gac init commit
+git add .; git commit -m "init commit"
+git add .
+nvim
+cd guessing_game/
+lazygit
+cd ../hello_cargo/
+lazygit
+cd ../hello_world/
+lazygit 
+cd ../hello_world
+lazygit 
+git add .
+git commit -m "init commit"
+cd ..
+lazygit
+nvim
+git remote add origin git@github.com:fordaman/LearnRust.git
+git branch -M main
+git push -u origin main
+cd ..
+cd LearnRust/
+nvim
+nvim 
+git remote add origin git@github.com:fordaman/LearnRust.git
+git branch -M main
+git push -u origin main
+git pull
+nvim
+git pull
+git branch --set-upstream-to=origin/<branch> main
+git branch
+git branch --help
+git branch --list
+git branch -l
+git remote add origin git@github.com:fordaman/LearnRust.git
+git pull
+git branch --set-upstream-to=origin/<branch> main
+git commit -m 'x'
+git add .; git commit -m 'x'
+touch temp
+git add .; git commit -m 'x'
+git pull
+git branch --set-upstream-to=origin/<branch> main
+git pull
+cl
+git remote
+lazygit
+nv
+nvim
+cl
+nvim
+clear
+cl
+ls
+cl
+ps
+nu
+cl
+cd zellij
+cd .config/zellij
+cl
+nvym
+nvim
+cl
+nvim
+config nu
+exit
+zellij
+cl
+exit
+zellij
+cl
+cd .config/zellij
+zoxide .config/zellij
+zoxide add .config/zellij
+zoxide add ~/.config/zellij
+cl
+nvim
+exit
+cl
+ps
+exit
+cl
+exit
+zellij
+ls
+cl
+cd zellij
+cd .config/zellij
+cd
+zoxide add ~/.config/zellij
+cd zellij
+cd .config/zellij
+nvim
+cl
+tmux
+cd
+nvim .bashrc
+config nu
+exit
+nu
+exit
+nu
+exit
+ls
+exit
+$terminal --working-directory="$(omarchy-cmd-terminal-cwd)"
+ls
+bash --command bash
+cl
+nvim .bashrc
+ls
+exit
+ls
+exit
+ls
+nvim .bashrc
+cl
+config nu
+exit
+tmux
+exit
+config nu
+tmux kill-session -a
+gh repo clone fordaman/tmux ~/.config/tmux
+git clone git@github.com:fordaman/tmux ~/.config/tmux
+ls .config
+cd .config/tmux/
+ls
+exit
+zoxide add ~/.config/tmux
+zoxide tmux
+cd tmux
+zoxide init
+zoxide init  nushell
+zoxide init nushell | save --append .config/nushell/config.nu
+config nu
+tmux kill-session -a
+z add .config/tmux
+z tmux
+cl
+cd
+nvim .bashrc
+exit
+scrcpy --help
+scrcpy
+cd tmux
+z tmux
+ls
+nvim
+cd
+exit
+tmux
+exit
+z tmux
+nvim tmux.conf 
+nvim
+exit
+ls
+cd scripts
+ls
+cd ..
+nvim
+cl
+lazygit
+exit
+nvim
+cl
+cd
+ls
+cl
+ls; clear
+clear; ls
+cd Code; clear
+ls
+cd Ex_Folio/
+nvim
+cl
+cd ~/.config/
+ls
+postgres --version
+pg_upgrade
+pg_upgrade -V 
+pg_upgrade
+pg_upgrade -b1
+pg_upgrade -d
+pg_upgrade -h
+pg_upgrade --help
+cl
+exit
+tmux
+tmux list-sessions 
+tmux
+tmux run-shell 
+tmux
+tmux -v
+cd .config
+ls
+ls -a
+ls
+cd
+tmux --help
+tmux -vV2
+tmux -v
+tmux -vu attach-session 
+tmux -vu 
+tmux new-session
+tmux new-session home
+exit
+tmux
+config nu
+tmux
+nvim .bashrc
+tmux
+exit
+nvim
+postgres --version
+pg_upgrade --verbose 
+pg_upgrade --old-bindir 
+postgres --version
+cl
+postgres --version
+tmux refresh-client 
+postgres --version
+pg_upgrade
+exit
+cl
+config nu
+cl
+discord --help
+postgres --version
+tmux kill-session -a
+postgres --version
+post-grohtml
+postgresql
+exit
+exit
+cl
+postgres 
+postgres --describe-config 
+postgres --help
+clear
+exit
+clear
+ls
+exit
+exit
+ls
+exit
+bash
+ls
+exit
+exit
+cl
+nvim .bashrc
+3+8
+3 * 8
+cl
+exit
+exit
+cl
+clear
+ls
+exit
+$env.shell7
+$env.shell
+ls | sh
+ls | bash
+bash | ls
+exit
+exit
+z tmux
+nvim .config
+la
+cl
+l
+eza -T
+cd .config
+eza -T
+cl
+ls --help
+ls **/* | where type == dir | tree --level 1
+postgres --help
+postgres --version
+pg_upgrade
+pg_upgrade -b 
+cl
+postgresql-check-db-dir 
+postgresql-check-db-dir database-path
+postgres initdb --data-checksums
+postgres
+sudo postgres
+cl
+sudo systemctl status postgresql
+sudo su - postgres
+sudo systemctl status postgresql
+sudo systemctl start postgresql
+sudo systemctl status postgresql
+sudo su - postgres
+sudo systemctl restart postgresql
+sudo systemctl status postgresql
+postgres
+postgres -u bruhma
+postgres --help
+bruhma - postgres
+sudo bruhma - postgres
+sudo su - postgres
+psql -U bruhma
+psql
+cl
+nsql
+psql
+psql -U bruhma
+psql --help
+sudo systemctl status postgresql
+psql --help
+psql --username=bruhma
+sudo su - postgres
+nvim
+cd
+nvim
+psql --username=bruhma -d exFolio
+psql -h localhost -p 5432 -d exFolio -U bruhma 
+brightnessctl set 10
+cl
+wttr
+cl
+ls
+cl
+cal
+lazygit
+psql -h localhost -p 5432 -d exFolio -U bruhma 
+psql --help
+psql -h localhost -p 5432 -d exFolio -U bruhma 
+sudo systemctl status postgresql
+sudo systemctl start postgresql
+psql -h localhost -p 5432 -d exFolio -U bruhma 
+exit
+cd tmux
+z tmux
+cl
+tmux
+nvim
+nvim
+cl
+z tmux
+config nu
+z add ~/Code/Ex_Folio/
+z Ex_Folio
+rustup doc --book
+z LearnRust
+z obsidian-vault
+z add ~/Documents/Obsidian-Vault/
+z obsidian-vault
+z Obsidian-Vault
+cd Documents/Obsidian-Vault/
+git status
+git rm .makemd/fileCache.mdc .makemd/superstate.mdc 
+git rm -f .makemd/fileCache.mdc .makemd/superstate.mdc 
+git status
+git pull --force
+git stash .
+git stash -a
+git pull
+git pull --force
+git status
+cd ..
+rm -rf Obsidian-Vault
+git clone git@github.com:fordaman/Vault
+git clone git@github.com:fordaman/Obsidian-Vault ./Vault
+z add ~/Documents/Vault
+zoxide add ./Vault
+cl
+y
+cd
+y
+nvim .bashrc
+cl
+config nu
+nvim .bashrc
+config nu
+lt
+exit
+tmux attach-session ?
+cl
+lsa
+cl
+ls
+lsa
+la
+cl
+spotify_player config
+spotify_player --help
+spotify_player -c
+cd .config/spotify-player/
+ls
+lsa
+bat app.toml 
+nvim app.toml 
+python
+cl
+z exfolio
+z Ex_Folio
+lsx
+ls
+py
+python
+cl
+lsa
+cl
+l
+cl
+l
+la
+cl
+cd
+mkdir Code/Python
+cd Code/Python/
+uv init test
+cd ..
+rm -rf Python/
+uv init Python
+cd Python/
+uv install yfinance
+uv pip install yfinance
+uv venv
+uv install yfinance
+uv pip install yfinance
+uv activate
+carapace --selfupdate -a
+uv run
+uv --help
+uv add yfanance
+uv add yfinance
+uv run
+uv run python
+cl
+uv run
+uv run python
+ls
+cd main.py
+uv run python
+ls
+bat data.csv 
+uv run python
+uv run main.py
+bat data.csv 
+uv run main.py
+nvim main.py 
+uv run main.py
+bat data.csv 
+cat data.csv 
+bat data.csv 
+bat --theme catppucin
+cat data.csv 
+open data.csv
+uv run main.py
+uv run
+uv run main
+uv run main.py
+open data.csv
+390/60
+390 / 60
+nvim
+open data.csv
+cl
+open data.csv
+cat data.csv 
+bat data.csv 
+open data.csv
+cat data.csv 
+nvim data.csv 
+cat data.csv 
+bat data.csv 
+open data.csv
+bat data.csv 
+cl
+gac init commit
+gac 'init commit'
+open data.csv
+nvim main.py 
+uv run main.py
+open data.csv
+cl
+open data.csv
+bat data.csv 
+nvim main.py 
+cl
+uv run main.py
+open data.csv
+nvim main.py 
+cl
+uv run main.py
+open data.csv
+bat data.csv 
+cl
+gac 'fixed csv storeage'
+cl
+nvim
+cl
+cd ..
+cat data.csv 
+cd Python/
+cat data.csv 
+bat data.csv 
+open data.csv
+ls
+ps
+cl
+open data.csv
+cl
+cd
+pixterm
+tmux attach-session ?
+cd Code/Python/
+open data.csv
+1435 * 3
+cl
+exitn
+exit
+pwd
+cl
+nvim
+czl
+cl
+cd
+cd Code/Ex_Folio/
+nvim
+rustup doc --book
+cargo init ownership
+cargo run
+cd ownership/
+cargo run
+qcargo run
+cargo run
+nvim
+cl
+cd .cache/spotify-player/
+ls
+open spotify-player-25-11-10-13-52.backtrace
+bat spotify-player-25-11-10-13-52.backtrace
+open spotify-player-25-11-10-13-52.log
+cp spotify-player-25-11-10-13-52.log
+cp spotify-player-25-11-10-13-52.log spotify-player-25-11-10-13-52.cp.log
+cp spotify-player-25-11-10-13-52.cp.log
+open spotify-player-25-11-10-13-52.cp.log
+nvim spotify-player-25-11-10-13-52.cp.log
+spotify_player --hepl
+spotify_player --help
+spotify_player -V
+nvim 
+nvim
+cd
+cl
+mkdir --help 
+cl
+cd .ssh
+ls
+touch config
+nvim
+nvim
+cl
+exit
+nvim
+z exfolio
+lazygit
+ed ..
+cd ..
+ls
+cd Python/
+ls
+cp yfinance.py ../exfolio/src/ex_folio/data/vendors/
+cd ../Python/
+open data.csv
+open ../Python/data.csv
+../Python/data.csv | open
+'../Python/data.csv' | open
+'../Python/data.csv' | open --raw
+'../Python/data.csv' | open
+cloudflared access tcp --hostname pg.ztree.dev --url localhost:5432
+nvim
+cloudflared --help
+nvim
+cd Code/exfolio/
+nvim .env
+nvim ~/.local/share/nvim/dadbod_ui/connections.json 
+yay -S discord
+yay -Sy discord
+omarchy-update 
+yay
+yay -Sy xdg-terminal-exec
+sudo pacman -Sy xdg-terminal-exec
+sudo pacman -Sy archlinux-keyring
+sudo pacman-key --refresh-keys
+sudo pacman-key --populate --help
+sudo pacman-key --populate archlinux omarchy
+sudo pacman-key --refresh-keys
+ps
+btop
+sudo pacman -Sy xdg-terminal-exec
+sudo pacman -Sy archlinux-keyring
+yay
+timedatectl set-ntp true
+yay
+yay -S archlinux-keyring
+date
+date | bash
+date
+date now
+sudo rm -rf /etc/pacman.d/gnupg
+sudo pacman-key --init
+sudo pacman-key --populate
+yay
+systemctl status openpgp
+systemctl status pgp
+paccache -r
+yay
+omarchy-update 
+reboot
+ssh terminal.shop
+cl
+bat /etc/mkinitcpio.conf.d/omarchy_hooks.conf 
+timer
+tclock
+tclock --hepl
+tclock --help
+tclock timer --help
+tclock timer -t Meeting 25m
+nvim
+z add code/exfolio/
+z add code/exfolio
+z add ~/code/exfolio
+zi
+exit
+z add ~/code/exfolio
+tmux respawn-window 
+exidt
+exit
+exit
+z add ~/code/exfolio
+zoxide add ./code/exfolio/
+z ex
+config nu
+source ~/.config/nushell/config.nu
+c
+c ex
+ci
+cl
+tclock timer -t Meeting -d 25m
+clock
+gh repo view fordaman/Portfolio-optimizer
+gh auth login
+gh repo view fordaman/Portfolio-optimizer
+gh browse fordaman/Portfolio-Optimizer
+lazygit 
+nvim
+yay -S python-jupynium
+yay -S jupynium
+exit
+yay -S pip-jupynium
+cd Code/exfolio/
+z ex
+uv install jupynium
+uv pip install jupynium
+uv activate
+uv run
+uv install jupynium
+uv pip install jupynium
+cloudflared access tcp --hostname pg.ztree.dev --url localhost:5432
+cloudflared access tcp --hostname pg.ztree.dev --url localhost:5432;
+bg
+bgrun
+cd backend/
+nuget 
+nuget init
+tmux attach-session ?
+c ux
+c
+c ex
+cat .env
+c add vault
+c add Documents/Vault/
+zoxide add Documents/Vault/
+c v
+git status
+git rm .makemd/fileCache.mdc .makemd/superstate.mdc 
+git rm -f .makemd/fileCache.mdc .makemd/superstate.mdc 
+git status
+lazygit
+c rust
+ci
+c
+z add ~/code/LearnRust/
+c add ~/code/LearnRust/
+zoxide add ~/code/LearnRust/
+c rust
+git status
+lazygit
+cd ..
+ls
+hyprctl clients
+cd code/Data-Science/
+wttr
+nvim
+lsblk
+sudo mkdir /media/ubs
+sudo mkdir /media/usb
+sudo mkdir /mnt/usb
+mount /dev/sda1 /mnt/usb/
+sudo mount /dev/sda1 /mnt/usb/
+ls /mnt/usb
+cd /mnt/usb
+z .
+zoxide add .
+7z
+tldr 7z
+7z x Bwarp.7z 
+sudo 7z x Bwarp.7z 
+ls
+nvim
+cp ./Bwarp/ ~/code/
+cp -r ./Bwarp/ ~/code/
+ls ~/code
+z code
+zoxide add ~/code
+z co
+c co
+ls
+rm -rf bwarp
+cd Bwarp/
+uv activate
+activate
+git remote add origin git@github.com:fordaman/bwarp.git<\n>git branch -M main<\n>git push -u origin main
+uv add yfinance pandas numpy
+uv init
+uv add yfinance pandas numpy
+uv activate
+uv run
+gh-dash
+tmux rename-window db
+c xe
+c ex
+uv run 
+cd ex
+c ex
+ls backend/
+lazygit
+ls
+uv run python
+uv run ./backend/src/ex_folio/data/vendors/historical_data_scraper.py
+discordo
+cl
+discordo
+discordo --help
+cat .config/discordo/config.toml
+exit
+wttr
+yay -Cy
+yay -Sy
+betterdiscord
+opencode
+cd ../exfolio/
+nvim
+c tmux
+y
+cd .config/yazi/
+ls
+y
+yazi
+y
+nvim
