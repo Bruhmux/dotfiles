@@ -21,3 +21,6 @@
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
 mkdir $"($nu.cache-dir)"
 carapace _carapace nushell | save --force $"($nu.cache-dir)/carapace.nu"
+
+# Colored man pages (bat)
+$env.MANPAGER = "sh -c 'col -bx | bat -l man -p'"
